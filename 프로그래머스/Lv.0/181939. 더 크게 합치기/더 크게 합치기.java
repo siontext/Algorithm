@@ -6,17 +6,14 @@ class Solution {
         String ba = String.valueOf(b) + String.valueOf(a); //919
         
         //문자열로 합쳐진 숫자를 정수화해주는 작업.
-        int abValue = Integer.valueOf(ab);
-        int baValue = Integer.valueOf(ba);
+        int abValue = Integer.valueOf(ab); //991 (정수)
+        int baValue = Integer.valueOf(ba); //919
         
         if(abValue > baValue) {
             return abValue;
-        }else
+        } else {
             return baValue;
- 
+        }
         
     }
 }
-//String.valueOf(), Integer.valueOf() 메서드를 배울수 있었음 
-//String.valueOf()  변수를 => string으로 형변환 가능
-//Integer.valueOf() 변수를 => int로 형변환 가능
