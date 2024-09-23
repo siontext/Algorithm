@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
-import static java.lang.System.in;
-
 public class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(in);
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(A + B);
-        System.out.println(A - B);
-        System.out.println(A * B);
-        System.out.println(A / B);
-        System.out.println(A % B);
+        Long a = sc.nextLong();
+        Long b = sc.nextLong();
+
+
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
 
     }
 }
